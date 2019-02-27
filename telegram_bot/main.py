@@ -1,7 +1,7 @@
 from model import ClassPredictor
 from telegram_token import token
 import torch
-from config import reply_texts
+#from config import reply_texts
 import numpy as np
 from PIL import Image
 from io import BytesIO
@@ -27,7 +27,18 @@ def worker(bot, queue):
         image_file.download(out=image_stream)
 
         # симулируем долгую работу сети, чтобы показать, почему нужен отдельный процесс и как это работает
-        class_ = 1#model.predict(image_stream)
+        index = model.predict(image_stream)
+        if index == 1:
+            class_ = "daisy"
+        elif index == 2:
+            class_ = "dandelion"
+        elif index == 3:
+            class_ = "rose"
+        elif index == 4:
+            class_ = "sunflower"
+        elif index == 5:
+            class_ = "tulip"
+
         sleep(10)
 
         # теперь отправим результат

@@ -49,18 +49,6 @@ class ClassPredictor:
         self.model.eval()
         logit = self.model(inputs).cpu()
 
-        #if index == 1:
-        #    class_ = "daisy"
-        #elif index == 2:
-        #    class_ = "dandelion"
-        #elif index == 3:
-        #    class_ = "rose"
-        #elif index == 4:
-        #    class_ = "sunflower"
-        #elif index == 5:
-        #    class_ = "tulip"
-
-
         # Обработка картинки сейчас производится в методе process image, а здесь мы должны уже применить нашу
         # модель и вернуть вектор предсказаний для нашей картинки
 

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c35a14-4809-406d-aab1-d492a21217d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ModelResearch.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_bot/Pillow.whl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram_bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram_bot/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_bot/telegram_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/telegram_token.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,16 +19,16 @@
         <entry file="file://$PROJECT_DIR$/telegram_bot/telegram_token.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegram_bot/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="47" />
+            <state relative-caret-position="295">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -38,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegram_bot/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="-595">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -60,15 +58,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/telegram_bot/telegram_token.py" />
-        <option value="$PROJECT_DIR$/telegram_bot/main.py" />
         <option value="$PROJECT_DIR$/telegram_bot/model.py" />
+        <option value="$PROJECT_DIR$/telegram_bot/main.py" />
+        <option value="$PROJECT_DIR$/telegram_bot/telegram_token.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="119" />
+    <option name="x" value="311" />
+    <option name="y" value="110" />
     <option name="width" value="1463" />
     <option name="height" value="873" />
   </component>
@@ -116,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="bot_classif" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,8 +193,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="119" width="1463" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="1005" y="86" width="1463" height="873" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2231579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -211,7 +208,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844037" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.2837838" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.36836404" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,13 +248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegram_bot/telegram_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/ModelResearch.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -268,20 +258,27 @@
     <entry file="file://$PROJECT_DIR$/telegram_bot/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegram_bot/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegram_bot/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="47" />
+        <state relative-caret-position="295">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram_bot/telegram_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram_bot/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -35,7 +35,7 @@ class ClassPredictor:
         self.resnet.avgpool = nn.AdaptiveAvgPool2d(1)
         self.model = models.resnet18(pretrained=True)
         self.model = self.model.cuda()
-        self.model.classifier = nn.Linear(25088, 2)
+        self.model.classifier = nn.Linear(9216, 2)
 
         self.model.load_state_dict(torch.load('../model/Inceptionv3.pth'))
 

@@ -9,6 +9,7 @@ from multiprocessing import Queue, Process
 from time import sleep
 
 
+
 model = ClassPredictor()
 job_queue = Queue()
 
